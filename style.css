@@ -1,0 +1,546 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat sans-serif;
+    background: #F3F3F3;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#header {
+    padding: 50px 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-point {
+    margin-left: -540px;
+}
+
+.point {
+    display: flex;
+    margin-top: 10px;
+    gap: 7px;
+}
+
+.point p {
+    color: #000;
+font-family: Montserrat;
+font-size: 15px;
+font-weight: 600;
+cursor: pointer;
+}
+
+.phone {
+    display: flex;
+    margin-top: 20px;
+    gap: 5px;
+}
+
+.phone p {
+    color: #000;
+font-family: Montserrat;
+font-size: 15px;
+font-weight: 600;
+cursor: pointer;
+}
+
+.logo {
+    color: #6B2424;
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 700;
+text-decoration: none;
+}
+
+.header span {
+    color: #FF7A00;
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 700;
+}
+
+.buttons {
+    display: flex;
+    gap: 26px;
+}
+
+.buttons button {
+    width: 52px;
+height: 52px;
+border-radius: 7px;
+background: #FFF;
+box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+border: none;
+cursor: pointer;
+}
+
+
+.buttons ion-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.line {
+    width: 1405px;
+height: 2px;
+background: #AEAEAE;
+margin-left: 155px;
+margin-top: -30px;
+}
+
+
+.header-col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 31px;
+}
+
+
+.tabs input {
+    display: none;
+}
+
+
+
+.tabs label {
+    width: 141px;
+height: 33px;
+border-radius: 7px;
+background: #FFF;
+border: none;
+color: #FF7A00;
+text-align: center;
+font-family: Montserrat;
+font-size: 15px;
+font-weight: 600;
+padding-top: 8px;
+box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+cursor: pointer;
+display: inline-block;
+
+transition: background-color 0.3s linear;
+transition: color 0.1s linear;
+}
+
+.tabs label:hover {
+    background-color: #FF7A00;
+    color: white;
+}
+
+
+#pizza:checked ~ .tab1  {
+    background: rgb(255, 89, 0);
+    color: white;
+}
+
+#sushi:checked ~ .tab2 {
+    background:  rgb(255, 89, 0);
+    color: white;
+}
+
+#combo:checked ~ .tab3 {
+    background:  rgb(255, 89, 0);
+    color: white;
+}
+
+#cake:checked ~ .tab4 {
+    background:  rgb(255, 89, 0);
+    color: white;
+}
+
+#zakuski:checked ~ .tab5 {
+    background:  rgb(255, 89, 0);
+    color: white;
+}
+
+#pizza:checked ~ .combo-content,
+#pizza:checked ~ .sushi-content,
+#pizza:checked ~ .zakuski-content,
+#pizza:checked ~ .cake-content {
+    display: none;
+}
+
+#sushi:checked ~ .combo-content,
+#sushi:checked ~ .pizza-content,
+#sushi:checked ~ .zakuski-content,
+#sushi:checked ~ .cake-content {
+    display: none;
+}
+
+#combo:checked ~ .pizza-content,
+#combo:checked ~ .zakuski-content,
+#combo:checked ~ .sushi-content,
+#combo:checked ~ .cake-content {
+    display: none;
+}
+
+#cake:checked ~ .pizza-content,
+#cake:checked ~ .sushi-content,
+#cake:checked ~ .zakuski-content,
+#cake:checked ~ .combo-content {
+    display: none;
+}
+
+#zakuski:checked ~ .pizza-content,
+#zakuski:checked ~ .sushi-content,
+#zakuski:checked ~ .cake-content,
+#zakuski:checked ~ .combo-content {
+    display: none;
+}
+
+
+.container h1 {
+    color: #000;
+font-family: Roboto;
+font-size: 30px;
+font-weight: 500;
+margin-top: 95px;
+}
+
+
+
+
+.min-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 33px;
+}
+
+.min-head button {
+    color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+width: 200px;
+height: 51px;
+border-radius: 8px;
+background: #FFF;
+box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+border: none;
+}
+
+.min-head img {
+    margin-top: 7px;
+    margin-bottom: 5px;
+    margin-left: -80px;
+}
+
+
+.main-tex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-tex p {
+    color: #000;
+font-family: Roboto;
+font-size: 17px;
+font-weight: 500;
+}
+
+.text {
+    margin-left: 115px !important;
+    margin-top: -37px;
+}
+
+.roll {
+    margin-left: 20px;
+    margin-top: -37px;
+}
+
+.combo {
+    margin-left: 28px;
+    margin-top: -49px;
+}
+
+.potato {
+    margin-left: 20px;
+    margin-top: -49px;
+}
+
+.cake {
+    margin-top: -49px;
+}
+
+
+
+
+
+
+.pizza-colon {
+    margin-top: 50px;
+}
+
+.colon1 {
+    width: 230px;
+height: 288px;
+border-radius: 15px;
+background: #FFF;
+box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.colon-back {
+    width: 193.616px;
+height: 149px;
+border-radius: 28px;
+background: rgba(176, 170, 211, 0.40);
+backdrop-filter: blur(17.5px);
+position: absolute;
+z-index: 990;
+margin-left: 18px;
+margin-top: -25px;
+}
+
+.colon-back img {
+    margin: 10px 10px;
+}
+
+
+.colon1 h4 {
+    color: #000;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 700;
+}
+
+
+.colon1 p {
+    color: rgba(0, 0, 0, 0.844);
+font-family: Montserrat;
+font-size: 10px;
+font-weight: 500;
+margin-top: 20px;
+}
+
+
+.colon-textt {
+    padding-top: 140px;
+    padding-left: 20px;
+}
+
+
+.star {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 3px;
+    margin-right: 20px;
+    margin-top: -18px;
+}
+
+
+.backr {
+    display: flex;
+    align-items: center !important;
+    justify-content: flex-end;
+    gap: 7px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.prices {
+    margin-top: -25px;
+}
+
+.love {
+    margin-left: 125px;
+    margin-top: -24px;
+}
+
+
+
+
+.pizza-colon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+
+.pizza-colon2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 80px;
+}
+
+
+
+.buttonss {
+    margin-left: 590px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.buttonss button {
+    border-radius: 5px;
+background: #FA963A;
+box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+width: 213px;
+height: 41px;
+border: none;
+color: #FFF;
+font-family: Montserrat;
+font-size: 15px;
+font-weight: 700;
+cursor: pointer;
+}
+
+
+
+.combo-colon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+
+.combo-colon2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 80px;
+}
+
+
+
+
+
+.zakuski-colon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.zakuski-colon2 {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-top: 80px;
+    margin-left: 127px;
+}
+
+
+
+
+
+
+.sushi-colon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+
+.sushi-colon2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 80px;
+}
+
+
+
+
+
+.cake-colon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.cake-colon2 {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-top: 80px;
+    margin-left: 127px;
+}
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 300px;
+    background: #FA963A;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    margin-top: 150px;
+    
+}
+
+
+.box a {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 700;
+text-decoration: none;
+}
+
+.box h4 {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+margin-top: 8px;
+cursor: pointer;
+}
+
+.box img {
+    margin-top: 13px;
+}
+
+
+
+.foot-line {
+    border-radius: 5px;
+background: #C4C4C4;
+width: 1197px;
+height: 3px;
+margin-top: -170px;
+margin-left: 245px;
+}
+
+
+
+.foot-text {
+    color: #ffffffc4;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+margin-left: 245px;
+margin-top: 70px;
+cursor: pointer;
+}
